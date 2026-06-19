@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的 AI 中转站</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.24.15/antd.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://fastly.jsdelivr.net/gh/Calcium-Ion/new-api-vercel@main/web/build/index.js" defer></script>
+    <script>
+        // 核心：让前端大厅直接与你自己的 Supabase 数据库通信，不需要任何第三方中转域名！
+        window.SQL_DSN = "postgresql://postgres:Mateng20030126.@meyrulbtjbclwesgbmz.supabase.co:5432/postgres";
+    </script>
+</body>
+</html>
