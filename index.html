@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI 中转控制台</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.24.15/antd.min.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://fastly.jsdelivr.net/gh/Calcium-Ion/new-api-vercel@main/web/build/index.js" defer></script>
+    <script>
+        // 让控制台直接连接你自己的专属 Supabase 数据库
+        window.SQL_DSN = "postgresql://postgres:Mateng20030126.@meyrulbtjbclwesgbmz.supabase.co:5432/postgres";
+    </script>
+</body>
+</html>
