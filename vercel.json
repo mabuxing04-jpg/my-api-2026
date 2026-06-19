@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "https://one-api-demo.pages.dev/$1" }
+  ]
+}
